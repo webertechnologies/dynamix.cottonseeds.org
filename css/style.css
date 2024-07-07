@@ -1,9 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
-    --secondary: #FF6922;
-    --light: #EFFDF5;
-    --dark: #0E2E50;
+    --primary: #101F00;
+    --secondary: #C0C7C9;
+    --light: #FEFEFE;
+    --dark: #06486A;
+    --b-light: #D0FCB3;
 }
 
 .back-to-top {
@@ -437,4 +438,16 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/* #override */
+.btn-primary{
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
 }
